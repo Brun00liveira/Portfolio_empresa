@@ -977,6 +977,8 @@ section {
   transition: all 0.4s ease-in-out;
   width: calc(33.33% - 20px); /* Adjust width and spacing as needed */
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .project-item img {
@@ -1031,9 +1033,7 @@ section {
   .projects-container,
   .projects-container-php {
       flex-direction: column; /* Alterar para exibição vertical */
-
       justify-content: space-between;
-
   }
 
   .project-item {
@@ -1046,5 +1046,25 @@ section {
     margin-bottom: 50px;
   }
 }
+@media (max-width: 600px) {
+  .project-item {
+   background-color: #27AE60;
+   width: 300px;
+   margin-left: auto;
+  margin-right: auto;
+}
+.container-right {
+  min-height: 100vh;
+  width: 100%;
+  position: absolute;
+  right: 140px;
+  top: 0;
+  padding: 3rem 18rem;
+}
+    
+}
+
+
+
 
 
