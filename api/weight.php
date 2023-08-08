@@ -75,7 +75,7 @@ if(isset($_GET['num1'],$_GET['calcular'])){
             <div class="collapse navbar-collapse mr-5" id="nav-target1">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="Index.html" class="nav-link text-light">Home</a>
+                        <a href="../html/calculator/Index.html" class="nav-link text-light">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="calculator.php" class="nav-link text-light">Calculadora</a>
