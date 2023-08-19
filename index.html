@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image" style="width: 60%;">
+                    <img src="img/foto.png" alt="" >
+                </div>
+            </div>
+            <div class="right-header" style="width: 100%;">
+                <h1 class="name">
+                    Olá, Eu sou <span>Bruno Oliveira Fonseca de Sousa.</span>
+                    Desenvolvedor Web Full-Stack
+                </h1>
+                <p>
+                    Sou um Desenvolvedor Web Full-Stack com experiencia em PHP , Laravel, Javascript, Typescript, Vue.js e consumo de APIs Rest. Com experiencia em desenvolvimento de sites, assim adquiri a capacidade de
+                    me adaptar a situações complexas e aprender novas linguagens rapidamente, obter o conhecimento de criação e organização desde a criação de interfaces de usuário envolventes até a implementação de funcionalidades no backend.
+                    ou como funcionário CLT em período integral. Estou motivado para enfrentar
+                    novos desafios e contribuir com meu conhecimento e experiência para o sucesso
+                    de projetos e equipes.
+
+                </p>
+                <div class="btn-con">
+                    <a href="/pdf/Curriculo.pdf" download class="main-btn">
+                        <span class="btn-text">Download CV</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>habilidades e <span>competencia</span><span class="bg-text">habilidades e competencia</span></h2>
+            </div> 
+            <div class="about-stats">
+                <h4 class="stat-title">Front-End</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">Bootstrap</p>
+                        <div class="progress-con">
+                            <p class="prog-text">100%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 100%;"></span>
+                            </div>  
+                        </div>    
+                    </div>  
+                    <div class="progress-bar" onmouseover="alterarVisibilidade('.classVue', true)" onmouseout="alterarVisibilidade('.classVue', false)">
+                        <p class="prog-title">Vue.js</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 80%;"></span>
+                            </div>
+                        </div> 
+                        <div class="classVue" style="display: none;">
+                            <p>• Pinia</p>
+                            <p>• Vue Router</p>
+                            <p>• Vue-i18n</p>
+                            <p>• Vuetify</p>
+                        </div>
+                    </div>   
+                    <div class="progress-bar">
+                        <p class="prog-title">Html5 , CSS e Javscript</p>
+                        <div class="progress-con">
+                            <p class="prog-text">60%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 60%;"></span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="progress-bar">
+                        <p class="prog-title">Blade</p>
+                        <div class="progress-con">
+                            <p class="prog-text">60%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 60%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Vite</p>
+                        <div class="progress-con">
+                            <p class="prog-text">40%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 40%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div> 
+            <div class="about-stats">
+                <h4 class="stat-title">Back-End</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar" onmouseover="alterarVisibilidade('.classLaravel', true)" onmouseout="alterarVisibilidade('.classLaravel', false)">
+                        <p class="prog-title">Laravel</p>
+                        <div class="progress-con">
+                            <p class="prog-text">75%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 75%;"></span>
+                            </div>
+                        </div> 
+                        <div class="classLaravel" style="display: none;">
+                            <p>• Conceitos Básicos (Middleware,Response,Validation,Session...)</p>
+                            <p>• ApiResource</p>
+                            <p>• Breeze</p>
+                            <p>• Sanctum</p>
+                            <p>• Teste Unitário</p>
+                            <p>• Design Pattern DTOs</p>
+                            <p>• Design Pattern Repository</p>
+                            
+                        </div>
+                    </div> 
+                    <div class="progress-bar" onmouseover="alterarVisibilidade('.mobileClass', true)" onmouseout="alterarVisibilidade('.mobileClass', false)">
+                        <p class="prog-title">PHP</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 70%;"></span>
+                            </div>
+                        </div> 
+                        <div class="mobileClass" style="display: none;">
+                            <p>• Programação Orientada a Objetos (POO)</p>
+                            <p>• PHPUnit</p> 
+                        </div>
+                    </div> 
+                    <div class="progress-bar">
+                        <p class="prog-title">Javascript</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 80%;"></span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="progress-bar">
+                        <p class="prog-title">CakePHP</p>
+                        <div class="progress-con">
+                            <p class="prog-text">60%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 60%;"></span>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">DevOps</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar" onmouseover="alterarVisibilidade('.classMysql', true)" onmouseout="alterarVisibilidade('.classMysql', false)">
+                        <p class="prog-title">MySql</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 80%;"></span>
+                            </div>
+                        </div> 
+                        <div class="classMysql" style="display: none;">
+                            <p>• Consultas SQL</p>
+                            <p>• Modelagem de Dados (MER)</p> 
+                        </div> 
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Git</p>
+                        <div class="progress-con">
+                            <p class="prog-text">60%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 80%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Postgresql</p>
+                        <div class="progress-con">
+                            <p class="prog-text">20%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 60%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="progress-bar" onmouseover="alterarVisibilidade('.dockerClass', true)" onmouseout="alterarVisibilidade('.dockerClass', false)">
+                        <p class="prog-title">Docker</p>
+                        <div class="progress-con">
+                            <p class="prog-text">20%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 60%;"></span>
+                            </div>
+                        </div> 
+                        <div class="dockerClass" style="display: none;">
+                            <p>• Containers</p>
+                            <p>• Dockerfile (PHP)</p> 
+                            <p>• Docker Compose (MySql, PHP)</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+                   
+                   
+            <div class="about-stats">
+                <h4 class="stat-title">Gestão de projetos</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">Bitbucket</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 80%;"></span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="progress-bar">
+                        <p class="prog-title">Jira</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 80%;"></span>
+                            </div>
+                        </div>
+                    </div> 
+                
+                    <div class="progress-bar">
+                        <p class="prog-title">Trello</p>
+                        <div class="progress-con">
+                            <p class="prog-text">30%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 40%;"></span>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div> 
+    
+            <div class="about-stats">
+                <h4 class="stat-title">Ferramentas e serviços</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">Inglês</p>
+                        <div class="progress-con">
+                            <p class="prog-text">40%</p>
+                            <div class="progress">
+                                <span class="html" style="width: 40%;"></span>
+                            </div>
+                        </div>
+                        <p>Inglês Intermediário (fazendo curso online na Open English para aprimorar meus conhecimentos em inglês)</p> 
+                    </div>   
+                </div>
+            </div>  
+        </section>
+         <section  class="container" id="portfolio">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>Meus    <br/><span>Cursos</span><span class="bg-text">Cursos</span></h2>
+                </div>  
+                <h4 class="stat-title">EspecializaTI (Carlos Ferreira) </h4>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div>
+                            <div class="tl-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <p class="tl-duration">10/06/2023</p>
+                            <h5>curso de docker<span> <br>10 horas</span></h5> 
+                        </div>
+                    </div>  
+                    <div class="timeline-item"> 
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">21/08/2022</p>
+                        <h5>Curso de Laravel 10<span> <br>25 horas</span></h5> 
+                    </div>
+                    <div class="timeline-item">
+                        <div>
+                            <div class="tl-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <p class="tl-duration">23/12/2022</p>
+                            <h5>curso de laravel 10 - criando um monitor de sites<span> <br>20 horas</span></h5> 
+                        </div>
+                    </div> 
+                </div>  
+            </div>
+            <div class="blogs-content"> 
+                <h4 class="stat-title">udemy</h4>
+                <div class="timeline"> 
+                    <div class="timeline-item">
+                        <div>
+                            <div class="tl-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <p class="tl-duration">16/04/2022</p>
+                            <h5>Curso Desenvolvimento Web Bootstrap, JavaScrip e PHP<span> <br>50 horas</span></h5> 
+                        </div>
+                    </div> 
+                    <div class="timeline-item">
+                        <div> 
+                            <div class="tl-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <p class="tl-duration">11/04/2022</p>
+                            <h5>Curso Desenvolvimento Web avançado Laravel e Vue.JS<span> <br>56 horas</span></h5> 
+                        </div>
+                    </div> 
+                    <div class="timeline-item">
+                        <div>
+                            <div class="tl-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <p class="tl-duration">02/01/2023</p>
+                            <h5>Laravel: Construindo APIs REST<span> <br>40 horas</span></h5> 
+                        </div>
+                    </div> 
+                   
+                    
+                </div>  
+            </div>
+        </section> 
+        <section class="container container-right"  id="projects">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>Meus  <br/><span>Projetos</span><span class="bg-text">Projetos</span></h2>
+                </div>  
+                <h4 class="stat-title">Html, Css e Bootstrap</h4>
+                <div class="projects-container">
+                    <div class="project-item">
+                        <img src="img/spotify/spotify.jpg" alt="Project 1">
+                        <div class="project-info">
+                        <h3 class="project-title">Spotify</h3>
+                        <p class="project-description"> O projeto é um website de página inicial inspirado no Spotify, desenvolvido utili- zando HTML, CSS e a biblioteca Bootstrap. O HTML é usado para estruturar o conteúdo da página, enquanto o CSS é responsável pela estilização, definindo cores, fontes, tamanhos e posicionamento dos elementos.</p>
+                        <div class="project-links">
+                            <a href="spotify.html" class="main-btn" target="_blank">Ver Projeto</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <img src="img/car/car.png" alt="Project 1">
+                        <div class="project-info">
+                        <h3 class="project-title">Turbo veiculos</h3>
+                        <p class="project-description"> O código HTML apresenta um website de carros chamado "Turbo Veiculos". O site utiliza CSS para estilização e responsividade. O projeto tem foco em apresentar informações sobre veículos e proporcionar uma experiência amigável ao usuário.</p>
+                        <div class="project-links">
+                            <a href="car.html" class="main-btn" target="_blank">Ver Projeto</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <img src="img/finans/finness.jpg" alt="Project 1">
+                        <div class="project-info">
+                        <h3 class="project-title">Finans</h3>
+                        <p class="project-description">O código HTML representa um website chamado "Finans - finanças pessoais". O site utiliza a biblioteca Bootstrap e CSS para estilização e responsividade. O website é focado em oferecer uma ferramenta online para facilitar a vida financeira do usuário.</p>
+                        <div class="project-links">
+                            <a href="finans.html" class="main-btn" target="_blank">Ver Projeto</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blogs-content"> 
+                <h4 class="stat-title">Javascript e PHP</h4>
+                <div class="projects-container-php">
+                    <div class="project-item">
+                        <img src="img/logo.png" alt="Project 1">
+                        <div class="project-info">
+                        <h3 class="project-title">IMC</h3>
+                        <p class="project-description">O projeto Calculator - BMI é uma calculadora de índice de massa corporal (IMC) em HTML, CSS e JavaScript, permitindo ao usuário calcular seu IMC com base nos valores de altura e peso inseridos</p>
+                        <div class="project-links">
+                            <a href="imc.html" class="main-btn">Ver Projeto</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="project-item project-item-left" >
+                        <img src="img/blog3.jpg" alt="Project 1">
+                        <div class="project-info">
+                        <h3 class="project-title">Calculator</h3>
+                        <p class="project-description">O projeto Calculator utiliza HTML, Bootstrap, CSS e PHP, com o objetivo de desenvolver uma calculadora e diversos conversores, abrangendo moeda, peso, temperatura, massa e tempo. O projeto oferece uma variedade de funcionalidades para facilitar a conversão de diferentes unidades e tornar as tarefas cotidianas mais práticas e eficientes.</p>
+                        <div class="project-links">
+                            <a href="calculadora.html" class="main-btn">Ver Projeto</a>
+                        </div>
+                        </div>
+                    </div>
+                    
+                  </div>
+            </div>
+            <div class="blogs-content"> 
+                <h4 class="stat-title">Laravel e Vue.Js</h4>
+                <div class="projects-container-php">
+                    <div class="project-item">
+                        <img src="img/blog3.jpg" alt="Project 1">
+                        <div class="project-info">
+                        <h3 class="project-title">Finans</h3>
+                        <p class="project-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae exercitationem quasi neque soluta a. Minus, adipisci porro a ratione, qui libero fugiat cumque officia vel non optio impedit, fugit nam?</p>
+                        <div class="project-links">
+                            <a href="#" class="main-btn">Ver Projeto</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="project-item project-item-left">
+                        <img src="img/blog3.jpg" alt="Project 1">
+                        <div class="project-info">
+                        <h3 class="project-title">Finans</h3>
+                        <p class="project-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae exercitationem quasi neque soluta a. Minus, adipisci porro a ratione, qui libero fugiat cumque officia vel non optio impedit, fugit nam?</p>
+                        <div class="project-links">
+                            <a href="#" class="main-btn">Ver Projeto</a>
+                        </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <section class="container" id="blogs">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>Minhas <span>Experiências</span><span class="bg-text">Minhas Experiências</span></h2>
+                </div>
+                <h4 class="stat-title">Formação Academica</h4>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">Jan de 2022 - Dez de 2024</p>
+                        <h5>Anhaguera Lorena <span> Faculdade ANHANGUERA</span></h5> 
+                        <p>Análise e desenvolvimento de sistemas</p>
+                    </div> 
+                </div>
+                <h4 class="stat-title">Histórico Profissional</h4>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">Mai de 2023 - Ago de 2023</p>
+                        <h5>BeC Inteligência<span> - PHP Junior </span></h5>
+                        <p>Freelancer</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <p class="tl-duration">Fev de 2023 - Abr de 2023</p>
+                        <h5>The One IT<span> - Estágiario</span></h5> 
+                        <p>Freelancer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Entre em  <span>contato</span><span class="bg-text">Entre em contato</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Entre em contato</h4> 
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Local</span>
+                                </div>
+                                <p>
+                                    : Lorena, São Paulo
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email</span>
+                                </div>
+                                <p>
+                                    <span>: brunobromo321@gmail.com</span>
+                                </p>
+                            </div>
+                      
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-phone"></i>
+                                    <span>Numero telefone:</span>
+                                </div>
+                                <p>
+                                    <span>: (12) 99114-3357</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe-africa"></i>
+                                    <span>Linguas</span>
+                                </div>
+                                <p>
+                                    <span>: Português</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon"> 
+                                <a href="https://github.com/gabrieltenachous" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/gabrielofsousa//"   target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-contact">
+                        <form action="" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <span>
+                                    Obrigado por visitar o meu site e ler o meu currículo! Fico muito feliz 
+                                    com o seu interesse. Se você tiver alguma pergunta, quiser mais informações 
+                                    ou estiver interessado no meu currículo, por favor, não hesite em entrar em 
+                                    contato comigo. Estou à disposição para responder suas dúvidas e discutir oportunidades 
+                                    de trabalho. Aguardo ansiosamente a sua mensagem! Obrigado mais uma vez e tenha um ótimo dia!
+                                </span>
+                            </div>
+                             
+                            <div class="submit-btn">
+                                <a href="/pdf/curriculo.pdf" download class="main-btn">
+                                    <span class="btn-text">Download CV</span>
+                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control" data-id="projects">
+            <i class="fas fa-folder-open"></i>
+        </div>
+        <div class="control" data-id="blogs">
+            <i class="far fa-newspaper"></i>
+        </div>
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+    </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
+</body>
+<script>
+    function alterarVisibilidade(seletor, mostrar) {
+        var div = document.querySelector(seletor);
+        div.style.display = mostrar ? 'block' : 'none';
+    }
+</script>
+<style>
+    ul {
+        list-style-type: circle;
+    }
+</style>
+</html>
