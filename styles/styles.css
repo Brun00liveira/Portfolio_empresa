@@ -170,6 +170,14 @@ section {
   z-index: -1;
   clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
 }
+.contact-icons {
+  text-align: center; /* Centralizar o texto */
+  margin-top: 10px; /* Espaçamento superior para separar do conteúdo acima */
+}
+.contact-content-con .left-contact .contact-icon {
+      justify-content: center; /* Centralizar os ícones horizontalmente */
+      margin-top: 1rem; /* Ajuste conforme necessário */
+  }
 .header-content .left-header .image {
   border-radius: var(--br-sm-2);
   height: auto; /* Change to auto to maintain aspect ratio */
@@ -561,6 +569,8 @@ section {
 .contact-content-con .left-contact .contact-icon {
   display: flex;
   margin-top: 2rem;
+  margin-bottom: 100px;
+
 }
 .contact-content-con .left-contact .contact-icon a {
   display: flex;
@@ -585,7 +595,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.3rem;
+  font-size: 2.3rem;
+
 }
 .contact-content-con .right-contact {
   flex: 3;
@@ -1062,6 +1073,8 @@ section {
   top: 0;
   padding: 3rem 18rem;
 }
+
+
 .projects-container-php {
   margin: 0px;
 }
